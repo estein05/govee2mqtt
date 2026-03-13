@@ -59,7 +59,7 @@ jobs:
       - name: "Install Rust"
         uses: dtolnay/rust-toolchain@stable
       - name: "Install Cosign"
-        run: go install github.com/sigstore/cosign/v3/cmd/cosign@v2.6.0
+        run: go install github.com/sigstore/cosign/v2/cmd/cosign@v2.6.0     
       - name: "Install cross from Cargo"
         uses: baptiste0928/cargo-install@v3
         with:
