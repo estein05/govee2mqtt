@@ -125,7 +125,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ghcr.io/estein05/govee2mqtt
-          tags: ghcr.io/YOUR_GITHUB_USERNAME/govee2mqtt:latest
+          tags: ghcr.io/estein05/govee2mqtt:latest
       - name: Login to GHCR
         if: ${{ github.event_name != 'pull_request' }}
         uses: docker/login-action@v3
